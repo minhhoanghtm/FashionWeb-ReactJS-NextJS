@@ -1,0 +1,1602 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Nguyễn Văn A",
+      "email": "vana@gmail.com",
+      "password": "hashed_password_1",
+      "phone": "0909123456",
+      "role": "customer",
+      "created_at": "2026-02-01T10:00:00Z",
+      "updated_at": "2026-02-01T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Trần Thị B",
+      "email": "thib@gmail.com",
+      "password": "hashed_password_2",
+      "phone": "0911222333",
+      "role": "customer",
+      "created_at": "2026-02-01T11:00:00Z",
+      "updated_at": "2026-02-01T11:00:00Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Áo thun",
+      "slug": "ao-thun",
+      "image": "https://dytbw3ui6vsu6.cloudfront.net/media/catalog/product/resize/914x1200/ADLV/24FW-TP-SS-LG-CRS-BLK/24FW-TP-SS-LG-CRS-BLK-006.webp",
+      "created_at": "2026-02-01T09:00:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Quần jean",
+      "image": "https://pos.nvncdn.com/5048a3-93414/ps/20240118_PUCJRs0Mj5.jpeg?v=1705560368",
+      "slug": "quan-jean",
+      "created_at": "2026-02-01T09:05:00Z"
+    }
+  ],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Local Brand X",
+      "description": "Thương hiệu thời trang trẻ",
+      "logo_url": "brandx.png"
+    },
+    {
+      "id": 2,
+      "name": "Fashion Y",
+      "description": "Phong cách hiện đại",
+      "logo_url": "fashiony.png"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Áo thun basic",
+      "slug": "ao-thun-basic",
+      "description": "Áo thun cotton 100%",
+      "brand_id": 1,
+      "category_id": 1,
+      "old_price": 249000,
+      "new_price": 199000,
+      "thumbnail": "https://bizweb.dktcdn.net/100/415/697/products/mc1-0224920e-c953-4129-a4b3-d79b600e15fa.jpg?v=1766742797187",
+      "gallery": [
+        "https://lados.vn/wp-content/uploads/2024/12/1-NAU-LD9202.jpg",
+        "https://pos.nvncdn.com/05016d-25618/ps/20240506_otuE9sekrV.jpeg?v=1714992182",
+        "https://bizweb.dktcdn.net/100/287/440/products/ao-thun-local-brand-dep-mau-den-1.jpg?v=1648723476070"
+      ],
+      "sold": 250,
+      "status": "active",
+      "rating_avg": 4.5,
+      "rating_count": 2,
+      "created_at": "2026-02-01T10:30:00Z",
+      "updated_at": "2026-02-01T10:30:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Quần jean slim fit",
+      "slug": "quan-jean-slim",
+      "description": "Jean co giãn nhẹ",
+      "brand_id": 2,
+      "category_id": 1,
+      "old_price": 199000,
+      "new_price": 189000,
+      "thumbnail": "https://pos.nvncdn.com/5048a3-93414/ps/20240118_PUCJRs0Mj5.jpeg?v=1705560368",
+      "gallery": [
+        "https://cdn.shop.com/products/ao-thun-1.jpg",
+        "https://cdn.shop.com/products/ao-thun-2.jpg"
+      ],
+      "sold": 490,
+      "status": "active",
+      "rating_avg": 5.0,
+      "rating_count": 1,
+      "created_at": "2026-02-01T11:30:00Z",
+      "updated_at": "2026-02-01T11:30:00Z"
+    },
+    {
+      "id": 3,
+      "name": "Áo thun basic Xám",
+      "slug": "ao-thun-basic-xam",
+      "description": "Áo thun cotton 100%",
+      "brand_id": 1,
+      "category_id": 1,
+      "old_price": 249000,
+      "new_price": 199000,
+      "thumbnail": "https://bizweb.dktcdn.net/100/415/697/products/mc1-0224920e-c953-4129-a4b3-d79b600e15fa.jpg?v=1766742797187",
+      "gallery": [
+        "https://lados.vn/wp-content/uploads/2024/12/1-NAU-LD9202.jpg",
+        "https://pos.nvncdn.com/05016d-25618/ps/20240506_otuE9sekrV.jpeg?v=1714992182",
+        "https://bizweb.dktcdn.net/100/287/440/products/ao-thun-local-brand-dep-mau-den-1.jpg?v=1648723476070"
+      ],
+      "sold": 184,
+      "status": "active",
+      "rating_avg": 4.2,
+      "rating_count": 49,
+      "created_at": "2026-02-01T10:30:00Z",
+      "updated_at": "2026-02-01T10:30:00Z"
+    },
+    {
+      "id": 4,
+      "name": "Áo thun basic Xanh Navy",
+      "slug": "ao-thun-basic-xanh-navy",
+      "description": "Áo thun cotton 100%",
+      "brand_id": 1,
+      "category_id": 1,
+      "old_price": 249000,
+      "new_price": 199000,
+      "thumbnail": "https://bizweb.dktcdn.net/100/415/697/products/mc1-0224920e-c953-4129-a4b3-d79b600e15fa.jpg?v=1766742797187",
+      "gallery": [
+        "https://lados.vn/wp-content/uploads/2024/12/1-NAU-LD9202.jpg",
+        "https://pos.nvncdn.com/05016d-25618/ps/20240506_otuE9sekrV.jpeg?v=1714992182",
+        "https://bizweb.dktcdn.net/100/287/440/products/ao-thun-local-brand-dep-mau-den-1.jpg?v=1648723476070"
+      ],
+      "sold": 251,
+      "status": "active",
+      "rating_avg": 4.1,
+      "rating_count": 114,
+      "created_at": "2026-02-01T10:30:00Z",
+      "updated_at": "2026-02-01T10:30:00Z"
+    },
+    {
+      "id": 5,
+      "name": "Áo thun basic Đỏ",
+      "slug": "ao-thun-basic-do",
+      "description": "Áo thun cotton 100%",
+      "brand_id": 1,
+      "category_id": 1,
+      "old_price": 249000,
+      "new_price": 199000,
+      "thumbnail": "https://bizweb.dktcdn.net/100/415/697/products/mc1-0224920e-c953-4129-a4b3-d79b600e15fa.jpg?v=1766742797187",
+      "gallery": [
+        "https://lados.vn/wp-content/uploads/2024/12/1-NAU-LD9202.jpg",
+        "https://pos.nvncdn.com/05016d-25618/ps/20240506_otuE9sekrV.jpeg?v=1714992182",
+        "https://bizweb.dktcdn.net/100/287/440/products/ao-thun-local-brand-dep-mau-den-1.jpg?v=1648723476070"
+      ],
+      "sold": 143,
+      "status": "active",
+      "rating_avg": 4.4,
+      "rating_count": 51,
+      "created_at": "2026-02-01T10:30:00Z",
+      "updated_at": "2026-02-01T10:30:00Z"
+    },
+    {
+      "id": 6,
+      "name": "Áo thun basic Xanh Lá",
+      "slug": "ao-thun-basic-xanh-la",
+      "description": "Áo thun cotton 100%",
+      "brand_id": 1,
+      "category_id": 1,
+      "old_price": 249000,
+      "new_price": 199000,
+      "thumbnail": "https://bizweb.dktcdn.net/100/415/697/products/mc1-0224920e-c953-4129-a4b3-d79b600e15fa.jpg?v=1766742797187",
+      "gallery": [
+        "https://lados.vn/wp-content/uploads/2024/12/1-NAU-LD9202.jpg",
+        "https://pos.nvncdn.com/05016d-25618/ps/20240506_otuE9sekrV.jpeg?v=1714992182",
+        "https://bizweb.dktcdn.net/100/287/440/products/ao-thun-local-brand-dep-mau-den-1.jpg?v=1648723476070"
+      ],
+      "sold": 174,
+      "status": "active",
+      "rating_avg": 4.8,
+      "rating_count": 93,
+      "created_at": "2026-02-01T10:30:00Z",
+      "updated_at": "2026-02-01T10:30:00Z"
+    },
+    {
+      "id": 7,
+      "name": "Áo thun basic Vàng",
+      "slug": "ao-thun-basic-vang",
+      "description": "Áo thun cotton 100%",
+      "brand_id": 1,
+      "category_id": 1,
+      "old_price": 249000,
+      "new_price": 199000,
+      "thumbnail": "https://bizweb.dktcdn.net/100/415/697/products/mc1-0224920e-c953-4129-a4b3-d79b600e15fa.jpg?v=1766742797187",
+      "gallery": [
+        "https://lados.vn/wp-content/uploads/2024/12/1-NAU-LD9202.jpg",
+        "https://pos.nvncdn.com/05016d-25618/ps/20240506_otuE9sekrV.jpeg?v=1714992182",
+        "https://bizweb.dktcdn.net/100/287/440/products/ao-thun-local-brand-dep-mau-den-1.jpg?v=1648723476070"
+      ],
+      "sold": 190,
+      "status": "active",
+      "rating_avg": 4.1,
+      "rating_count": 111,
+      "created_at": "2026-02-01T10:30:00Z",
+      "updated_at": "2026-02-01T10:30:00Z"
+    },
+    {
+      "id": 8,
+      "name": "Quần jean slim fit Xanh Đậm",
+      "slug": "quan-jean-slim-xanh-dam",
+      "description": "Jean co giãn nhẹ",
+      "brand_id": 2,
+      "category_id": 2,
+      "old_price": 449000,
+      "new_price": 399000,
+      "thumbnail": "https://pos.nvncdn.com/5048a3-93414/ps/20240118_PUCJRs0Mj5.jpeg?v=1705560368",
+      "gallery": [
+        "https://cdn.shop.com/products/ao-thun-1.jpg",
+        "https://cdn.shop.com/products/ao-thun-2.jpg"
+      ],
+      "sold": 343,
+      "status": "active",
+      "rating_avg": 4.8,
+      "rating_count": 89,
+      "created_at": "2026-02-01T11:30:00Z",
+      "updated_at": "2026-02-01T11:30:00Z"
+    },
+    {
+      "id": 9,
+      "name": "Quần jean slim fit Xanh Nhạt",
+      "slug": "quan-jean-slim-xanh-nhat",
+      "description": "Jean co giãn nhẹ",
+      "brand_id": 2,
+      "category_id": 2,
+      "old_price": 449000,
+      "new_price": 399000,
+      "thumbnail": "https://pos.nvncdn.com/5048a3-93414/ps/20240118_PUCJRs0Mj5.jpeg?v=1705560368",
+      "gallery": [
+        "https://cdn.shop.com/products/ao-thun-1.jpg",
+        "https://cdn.shop.com/products/ao-thun-2.jpg"
+      ],
+      "sold": 410,
+      "status": "active",
+      "rating_avg": 4.9,
+      "rating_count": 139,
+      "created_at": "2026-02-01T11:30:00Z",
+      "updated_at": "2026-02-01T11:30:00Z"
+    },
+    {
+      "id": 10,
+      "name": "Quần jean slim fit Đen",
+      "slug": "quan-jean-slim-den",
+      "description": "Jean co giãn nhẹ",
+      "brand_id": 2,
+      "category_id": 2,
+      "old_price": 449000,
+      "new_price": 399000,
+      "thumbnail": "https://pos.nvncdn.com/5048a3-93414/ps/20240118_PUCJRs0Mj5.jpeg?v=1705560368",
+      "gallery": [
+        "https://cdn.shop.com/products/ao-thun-1.jpg",
+        "https://cdn.shop.com/products/ao-thun-2.jpg"
+      ],
+      "sold": 262,
+      "status": "active",
+      "rating_avg": 4.2,
+      "rating_count": 110,
+      "created_at": "2026-02-01T11:30:00Z",
+      "updated_at": "2026-02-01T11:30:00Z"
+    },
+    {
+      "id": 11,
+      "name": "Quần jean slim fit Xám",
+      "slug": "quan-jean-slim-xam",
+      "description": "Jean co giãn nhẹ",
+      "brand_id": 2,
+      "category_id": 2,
+      "old_price": 449000,
+      "new_price": 399000,
+      "thumbnail": "https://pos.nvncdn.com/5048a3-93414/ps/20240118_PUCJRs0Mj5.jpeg?v=1705560368",
+      "gallery": [
+        "https://cdn.shop.com/products/ao-thun-1.jpg",
+        "https://cdn.shop.com/products/ao-thun-2.jpg"
+      ],
+      "sold": 547,
+      "status": "active",
+      "rating_avg": 4.2,
+      "rating_count": 51,
+      "created_at": "2026-02-01T11:30:00Z",
+      "updated_at": "2026-02-01T11:30:00Z"
+    },
+    {
+      "id": 12,
+      "name": "Quần jean slim fit Trắng",
+      "slug": "quan-jean-slim-trang",
+      "description": "Jean co giãn nhẹ",
+      "brand_id": 2,
+      "category_id": 2,
+      "old_price": 449000,
+      "new_price": 399000,
+      "thumbnail": "https://pos.nvncdn.com/5048a3-93414/ps/20240118_PUCJRs0Mj5.jpeg?v=1705560368",
+      "gallery": [
+        "https://cdn.shop.com/products/ao-thun-1.jpg",
+        "https://cdn.shop.com/products/ao-thun-2.jpg"
+      ],
+      "sold": 524,
+      "status": "active",
+      "rating_avg": 4.3,
+      "rating_count": 133,
+      "created_at": "2026-02-01T11:30:00Z",
+      "updated_at": "2026-02-01T11:30:00Z"
+    }
+  ],
+  "product_variants": [
+    {
+      "id": 1,
+      "product_id": 1,
+      "sku": "ATB-S-BLACK",
+      "color": "Đen",
+      "color_code": "#000000",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSESeeltceNB8gEMqFNQXlcKtUPqtOD-3acjA&s",
+      "size": "S",
+      "price": 199000,
+      "compare_at_price": 249000,
+      "stock": 40,
+      "is_active": true
+    },
+    {
+      "id": 2,
+      "product_id": 1,
+      "sku": "ATB-M-BLACK",
+      "color": "Đen",
+      "color_code": "#000000",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSESeeltceNB8gEMqFNQXlcKtUPqtOD-3acjA&s",
+      "size": "M",
+      "price": 199000,
+      "compare_at_price": 249000,
+      "stock": 50,
+      "is_active": true
+    },
+    {
+      "id": 3,
+      "product_id": 1,
+      "sku": "ATB-L-BLACK",
+      "color": "Đen",
+      "color_code": "#000000",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSESeeltceNB8gEMqFNQXlcKtUPqtOD-3acjA&s",
+      "size": "L",
+      "price": 199000,
+      "compare_at_price": 249000,
+      "stock": 35,
+      "is_active": true
+    },
+    {
+      "id": 4,
+      "product_id": 1,
+      "sku": "ATB-XL-BLACK",
+      "color": "Đen",
+      "color_code": "#000000",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSESeeltceNB8gEMqFNQXlcKtUPqtOD-3acjA&s",
+      "size": "XL",
+      "price": 199000,
+      "compare_at_price": 249000,
+      "stock": 20,
+      "is_active": true
+    },
+    {
+      "id": 5,
+      "product_id": 1,
+      "sku": "ATB-S-WHITE",
+      "color": "Trắng",
+      "color_code": "#FFFFFF",
+      "image": "https://bizweb.dktcdn.net/100/467/070/files/y-nghia-cua-mau-trang-anthinhtienplastic-5.jpg?v=1725076112456",
+      "size": "S",
+      "price": 210000,
+      "compare_at_price": 249000,
+      "stock": 30,
+      "is_active": true
+    },
+    {
+      "id": 6,
+      "product_id": 1,
+      "sku": "ATB-M-WHITE",
+      "color": "Trắng",
+      "color_code": "#FFFFFF",
+      "image": "https://bizweb.dktcdn.net/100/467/070/files/y-nghia-cua-mau-trang-anthinhtienplastic-5.jpg?v=1725076112456",
+      "size": "M",
+      "price": 210000,
+      "compare_at_price": 249000,
+      "stock": 45,
+      "is_active": true
+    },
+    {
+      "id": 7,
+      "product_id": 1,
+      "sku": "ATB-L-WHITE",
+      "color": "Trắng",
+      "color_code": "#FFFFFF",
+      "image": "https://bizweb.dktcdn.net/100/467/070/files/y-nghia-cua-mau-trang-anthinhtienplastic-5.jpg?v=1725076112456",
+      "size": "L",
+      "price": 199000,
+      "compare_at_price": 249000,
+      "stock": 25,
+      "is_active": true
+    },
+    {
+      "id": 8,
+      "product_id": 1,
+      "sku": "ATB-XL-WHITE",
+      "color": "Trắng",
+      "color_code": "#FFFFFF",
+      "image": "https://bizweb.dktcdn.net/100/467/070/files/y-nghia-cua-mau-trang-anthinhtienplastic-5.jpg?v=1725076112456",
+      "size": "XL",
+      "price": 210000,
+      "compare_at_price": 249000,
+      "stock": 15,
+      "is_active": true
+    },
+    {
+      "id": 9,
+      "product_id": 2,
+      "sku": "QJ-S-BLUE",
+      "color": "Xanh",
+      "color_code": "#1E90FF",
+      "image": "https://pencco.com.vn/wp-content/uploads/2024/09/xanh-duong.jpg",
+      "size": "S",
+      "price": 399000,
+      "compare_at_price": 449000,
+      "stock": 30,
+      "is_active": true
+    },
+    {
+      "id": 10,
+      "product_id": 2,
+      "sku": "QJ-M-BLUE",
+      "color": "Xanh",
+      "color_code": "#1E90FF",
+      "image": "https://pencco.com.vn/wp-content/uploads/2024/09/xanh-duong.jpg",
+      "size": "M",
+      "price": 399000,
+      "compare_at_price": 449000,
+      "stock": 25,
+      "is_active": true
+    },
+    {
+      "id": 11,
+      "product_id": 2,
+      "sku": "QJ-L-BLUE",
+      "color": "Xanh",
+      "color_code": "#1E90FF",
+      "image": "https://pencco.com.vn/wp-content/uploads/2024/09/xanh-duong.jpg",
+      "size": "L",
+      "price": 399000,
+      "compare_at_price": 449000,
+      "stock": 10,
+      "is_active": true
+    },
+    {
+      "id": 12,
+      "product_id": 3,
+      "sku": "ATB-S-XÁM",
+      "color": "Xám",
+      "color_code": "#808080",
+      "image": "https://via.placeholder.com/300?text=Xám",
+      "size": "S",
+      "price": 219000,
+      "compare_at_price": 249000,
+      "stock": 55,
+      "is_active": true
+    },
+    {
+      "id": 13,
+      "product_id": 3,
+      "sku": "ATB-M-XÁM",
+      "color": "Xám",
+      "color_code": "#808080",
+      "image": "https://via.placeholder.com/300?text=Xám",
+      "size": "M",
+      "price": 199000,
+      "compare_at_price": 249000,
+      "stock": 11,
+      "is_active": true
+    },
+    {
+      "id": 14,
+      "product_id": 3,
+      "sku": "ATB-L-XÁM",
+      "color": "Xám",
+      "color_code": "#808080",
+      "image": "https://via.placeholder.com/300?text=Xám",
+      "size": "L",
+      "price": 199000,
+      "compare_at_price": 249000,
+      "stock": 10,
+      "is_active": true
+    },
+    {
+      "id": 15,
+      "product_id": 3,
+      "sku": "ATB-XL-XÁM",
+      "color": "Xám",
+      "color_code": "#808080",
+      "image": "https://via.placeholder.com/300?text=Xám",
+      "size": "XL",
+      "price": 199000,
+      "compare_at_price": 249000,
+      "stock": 20,
+      "is_active": true
+    },
+    {
+      "id": 16,
+      "product_id": 4,
+      "sku": "ATB-S-XANHNAVY",
+      "color": "Xanh Navy",
+      "color_code": "#001F3F",
+      "image": "https://via.placeholder.com/300?text=Xanh Navy",
+      "size": "S",
+      "price": 219000,
+      "compare_at_price": 249000,
+      "stock": 43,
+      "is_active": true
+    },
+    {
+      "id": 17,
+      "product_id": 4,
+      "sku": "ATB-M-XANHNAVY",
+      "color": "Xanh Navy",
+      "color_code": "#001F3F",
+      "image": "https://via.placeholder.com/300?text=Xanh Navy",
+      "size": "M",
+      "price": 199000,
+      "compare_at_price": 249000,
+      "stock": 44,
+      "is_active": true
+    },
+    {
+      "id": 18,
+      "product_id": 4,
+      "sku": "ATB-L-XANHNAVY",
+      "color": "Xanh Navy",
+      "color_code": "#001F3F",
+      "image": "https://via.placeholder.com/300?text=Xanh Navy",
+      "size": "L",
+      "price": 199000,
+      "compare_at_price": 249000,
+      "stock": 14,
+      "is_active": true
+    },
+    {
+      "id": 19,
+      "product_id": 4,
+      "sku": "ATB-XL-XANHNAVY",
+      "color": "Xanh Navy",
+      "color_code": "#001F3F",
+      "image": "https://via.placeholder.com/300?text=Xanh Navy",
+      "size": "XL",
+      "price": 199000,
+      "compare_at_price": 249000,
+      "stock": 48,
+      "is_active": true
+    },
+    {
+      "id": 20,
+      "product_id": 5,
+      "sku": "ATB-S-ĐỎ",
+      "color": "Đỏ",
+      "color_code": "#FF0000",
+      "image": "https://via.placeholder.com/300?text=Đỏ",
+      "size": "S",
+      "price": 219000,
+      "compare_at_price": 249000,
+      "stock": 27,
+      "is_active": true
+    },
+    {
+      "id": 21,
+      "product_id": 5,
+      "sku": "ATB-M-ĐỎ",
+      "color": "Đỏ",
+      "color_code": "#FF0000",
+      "image": "https://via.placeholder.com/300?text=Đỏ",
+      "size": "M",
+      "price": 219000,
+      "compare_at_price": 249000,
+      "stock": 21,
+      "is_active": true
+    },
+    {
+      "id": 22,
+      "product_id": 5,
+      "sku": "ATB-L-ĐỎ",
+      "color": "Đỏ",
+      "color_code": "#FF0000",
+      "image": "https://via.placeholder.com/300?text=Đỏ",
+      "size": "L",
+      "price": 199000,
+      "compare_at_price": 249000,
+      "stock": 59,
+      "is_active": true
+    },
+    {
+      "id": 23,
+      "product_id": 5,
+      "sku": "ATB-XL-ĐỎ",
+      "color": "Đỏ",
+      "color_code": "#FF0000",
+      "image": "https://via.placeholder.com/300?text=Đỏ",
+      "size": "XL",
+      "price": 199000,
+      "compare_at_price": 249000,
+      "stock": 12,
+      "is_active": true
+    },
+    {
+      "id": 24,
+      "product_id": 6,
+      "sku": "ATB-S-XANHLÁ",
+      "color": "Xanh Lá",
+      "color_code": "#008000",
+      "image": "https://via.placeholder.com/300?text=Xanh Lá",
+      "size": "S",
+      "price": 199000,
+      "compare_at_price": 249000,
+      "stock": 37,
+      "is_active": true
+    },
+    {
+      "id": 25,
+      "product_id": 6,
+      "sku": "ATB-M-XANHLÁ",
+      "color": "Xanh Lá",
+      "color_code": "#008000",
+      "image": "https://via.placeholder.com/300?text=Xanh Lá",
+      "size": "M",
+      "price": 199000,
+      "compare_at_price": 249000,
+      "stock": 22,
+      "is_active": true
+    },
+    {
+      "id": 26,
+      "product_id": 6,
+      "sku": "ATB-L-XANHLÁ",
+      "color": "Xanh Lá",
+      "color_code": "#008000",
+      "image": "https://via.placeholder.com/300?text=Xanh Lá",
+      "size": "L",
+      "price": 199000,
+      "compare_at_price": 249000,
+      "stock": 48,
+      "is_active": true
+    },
+    {
+      "id": 27,
+      "product_id": 6,
+      "sku": "ATB-XL-XANHLÁ",
+      "color": "Xanh Lá",
+      "color_code": "#008000",
+      "image": "https://via.placeholder.com/300?text=Xanh Lá",
+      "size": "XL",
+      "price": 219000,
+      "compare_at_price": 249000,
+      "stock": 60,
+      "is_active": true
+    },
+    {
+      "id": 28,
+      "product_id": 7,
+      "sku": "ATB-S-VÀNG",
+      "color": "Vàng",
+      "color_code": "#FFD700",
+      "image": "https://via.placeholder.com/300?text=Vàng",
+      "size": "S",
+      "price": 199000,
+      "compare_at_price": 249000,
+      "stock": 18,
+      "is_active": true
+    },
+    {
+      "id": 29,
+      "product_id": 7,
+      "sku": "ATB-M-VÀNG",
+      "color": "Vàng",
+      "color_code": "#FFD700",
+      "image": "https://via.placeholder.com/300?text=Vàng",
+      "size": "M",
+      "price": 199000,
+      "compare_at_price": 249000,
+      "stock": 14,
+      "is_active": true
+    },
+    {
+      "id": 30,
+      "product_id": 7,
+      "sku": "ATB-L-VÀNG",
+      "color": "Vàng",
+      "color_code": "#FFD700",
+      "image": "https://via.placeholder.com/300?text=Vàng",
+      "size": "L",
+      "price": 209000,
+      "compare_at_price": 249000,
+      "stock": 52,
+      "is_active": true
+    },
+    {
+      "id": 31,
+      "product_id": 7,
+      "sku": "ATB-XL-VÀNG",
+      "color": "Vàng",
+      "color_code": "#FFD700",
+      "image": "https://via.placeholder.com/300?text=Vàng",
+      "size": "XL",
+      "price": 199000,
+      "compare_at_price": 249000,
+      "stock": 46,
+      "is_active": true
+    },
+    {
+      "id": 32,
+      "product_id": 8,
+      "sku": "QJ-S-XANHĐẬM",
+      "color": "Xanh Đậm",
+      "color_code": "#003366",
+      "image": "https://via.placeholder.com/300?text=Xanh Đậm",
+      "size": "S",
+      "price": 419000,
+      "compare_at_price": 449000,
+      "stock": 34,
+      "is_active": true
+    },
+    {
+      "id": 33,
+      "product_id": 8,
+      "sku": "QJ-M-XANHĐẬM",
+      "color": "Xanh Đậm",
+      "color_code": "#003366",
+      "image": "https://via.placeholder.com/300?text=Xanh Đậm",
+      "size": "M",
+      "price": 429000,
+      "compare_at_price": 449000,
+      "stock": 22,
+      "is_active": true
+    },
+    {
+      "id": 34,
+      "product_id": 8,
+      "sku": "QJ-L-XANHĐẬM",
+      "color": "Xanh Đậm",
+      "color_code": "#003366",
+      "image": "https://via.placeholder.com/300?text=Xanh Đậm",
+      "size": "L",
+      "price": 419000,
+      "compare_at_price": 449000,
+      "stock": 36,
+      "is_active": true
+    },
+    {
+      "id": 35,
+      "product_id": 8,
+      "sku": "QJ-XL-XANHĐẬM",
+      "color": "Xanh Đậm",
+      "color_code": "#003366",
+      "image": "https://via.placeholder.com/300?text=Xanh Đậm",
+      "size": "XL",
+      "price": 399000,
+      "compare_at_price": 449000,
+      "stock": 45,
+      "is_active": true
+    },
+    {
+      "id": 36,
+      "product_id": 9,
+      "sku": "QJ-S-XANHNHẠT",
+      "color": "Xanh Nhạt",
+      "color_code": "#87CEEB",
+      "image": "https://via.placeholder.com/300?text=Xanh Nhạt",
+      "size": "S",
+      "price": 419000,
+      "compare_at_price": 449000,
+      "stock": 39,
+      "is_active": true
+    },
+    {
+      "id": 37,
+      "product_id": 9,
+      "sku": "QJ-M-XANHNHẠT",
+      "color": "Xanh Nhạt",
+      "color_code": "#87CEEB",
+      "image": "https://via.placeholder.com/300?text=Xanh Nhạt",
+      "size": "M",
+      "price": 419000,
+      "compare_at_price": 449000,
+      "stock": 26,
+      "is_active": true
+    },
+    {
+      "id": 38,
+      "product_id": 9,
+      "sku": "QJ-L-XANHNHẠT",
+      "color": "Xanh Nhạt",
+      "color_code": "#87CEEB",
+      "image": "https://via.placeholder.com/300?text=Xanh Nhạt",
+      "size": "L",
+      "price": 419000,
+      "compare_at_price": 449000,
+      "stock": 33,
+      "is_active": true
+    },
+    {
+      "id": 39,
+      "product_id": 9,
+      "sku": "QJ-XL-XANHNHẠT",
+      "color": "Xanh Nhạt",
+      "color_code": "#87CEEB",
+      "image": "https://via.placeholder.com/300?text=Xanh Nhạt",
+      "size": "XL",
+      "price": 429000,
+      "compare_at_price": 449000,
+      "stock": 21,
+      "is_active": true
+    },
+    {
+      "id": 40,
+      "product_id": 10,
+      "sku": "QJ-S-ĐEN",
+      "color": "Đen",
+      "color_code": "#000000",
+      "image": "https://via.placeholder.com/300?text=Đen",
+      "size": "S",
+      "price": 399000,
+      "compare_at_price": 449000,
+      "stock": 13,
+      "is_active": true
+    },
+    {
+      "id": 41,
+      "product_id": 10,
+      "sku": "QJ-M-ĐEN",
+      "color": "Đen",
+      "color_code": "#000000",
+      "image": "https://via.placeholder.com/300?text=Đen",
+      "size": "M",
+      "price": 399000,
+      "compare_at_price": 449000,
+      "stock": 14,
+      "is_active": true
+    },
+    {
+      "id": 42,
+      "product_id": 10,
+      "sku": "QJ-L-ĐEN",
+      "color": "Đen",
+      "color_code": "#000000",
+      "image": "https://via.placeholder.com/300?text=Đen",
+      "size": "L",
+      "price": 419000,
+      "compare_at_price": 449000,
+      "stock": 30,
+      "is_active": true
+    },
+    {
+      "id": 43,
+      "product_id": 10,
+      "sku": "QJ-XL-ĐEN",
+      "color": "Đen",
+      "color_code": "#000000",
+      "image": "https://via.placeholder.com/300?text=Đen",
+      "size": "XL",
+      "price": 399000,
+      "compare_at_price": 449000,
+      "stock": 25,
+      "is_active": true
+    },
+    {
+      "id": 44,
+      "product_id": 11,
+      "sku": "QJ-S-XÁM",
+      "color": "Xám",
+      "color_code": "#A9A9A9",
+      "image": "https://via.placeholder.com/300?text=Xám",
+      "size": "S",
+      "price": 429000,
+      "compare_at_price": 449000,
+      "stock": 37,
+      "is_active": true
+    },
+    {
+      "id": 45,
+      "product_id": 11,
+      "sku": "QJ-M-XÁM",
+      "color": "Xám",
+      "color_code": "#A9A9A9",
+      "image": "https://via.placeholder.com/300?text=Xám",
+      "size": "M",
+      "price": 429000,
+      "compare_at_price": 449000,
+      "stock": 28,
+      "is_active": true
+    },
+    {
+      "id": 46,
+      "product_id": 11,
+      "sku": "QJ-L-XÁM",
+      "color": "Xám",
+      "color_code": "#A9A9A9",
+      "image": "https://via.placeholder.com/300?text=Xám",
+      "size": "L",
+      "price": 399000,
+      "compare_at_price": 449000,
+      "stock": 22,
+      "is_active": true
+    },
+    {
+      "id": 47,
+      "product_id": 11,
+      "sku": "QJ-XL-XÁM",
+      "color": "Xám",
+      "color_code": "#A9A9A9",
+      "image": "https://via.placeholder.com/300?text=Xám",
+      "size": "XL",
+      "price": 429000,
+      "compare_at_price": 449000,
+      "stock": 18,
+      "is_active": true
+    },
+    {
+      "id": 48,
+      "product_id": 12,
+      "sku": "QJ-S-TRẮNG",
+      "color": "Trắng",
+      "color_code": "#FFFFFF",
+      "image": "https://via.placeholder.com/300?text=Trắng",
+      "size": "S",
+      "price": 399000,
+      "compare_at_price": 449000,
+      "stock": 47,
+      "is_active": true
+    },
+    {
+      "id": 49,
+      "product_id": 12,
+      "sku": "QJ-M-TRẮNG",
+      "color": "Trắng",
+      "color_code": "#FFFFFF",
+      "image": "https://via.placeholder.com/300?text=Trắng",
+      "size": "M",
+      "price": 429000,
+      "compare_at_price": 449000,
+      "stock": 10,
+      "is_active": true
+    },
+    {
+      "id": 50,
+      "product_id": 12,
+      "sku": "QJ-L-TRẮNG",
+      "color": "Trắng",
+      "color_code": "#FFFFFF",
+      "image": "https://via.placeholder.com/300?text=Trắng",
+      "size": "L",
+      "price": 429000,
+      "compare_at_price": 449000,
+      "stock": 11,
+      "is_active": true
+    },
+    {
+      "id": 51,
+      "product_id": 12,
+      "sku": "QJ-XL-TRẮNG",
+      "color": "Trắng",
+      "color_code": "#FFFFFF",
+      "image": "https://via.placeholder.com/300?text=Trắng",
+      "size": "XL",
+      "price": 429000,
+      "compare_at_price": 449000,
+      "stock": 23,
+      "is_active": true
+    }
+  ],
+
+  "order_items": [{
+      "id": 1,
+      "order_id": 1,
+      "product_variant_id": 1,
+      "price": 199000,
+      "quantity": 1
+    },
+    {
+      "id": 2,
+      "order_id": 2,
+      "product_variant_id": 2,
+      "price": 399000,
+      "quantity": 1
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "productId": 1,
+      "order_id": 1,
+      "rating": 4,
+      "title": "Áo đẹp",
+      "comment": "Chất liệu tốt, form chuẩn",
+      "image_review": [
+        "https://pos.nvncdn.com/492284-9176/ps/20241110_EFMvcDtllD.jpeg?v=1731227347",
+        "https://product.hstatic.net/1000378223/product/xanh_sau_4cd37222a3d841999c3b065a60d44590.jpg"
+      ],
+      "is_approved": true,
+      "created_at": "2026-02-03T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "productId": 2,
+      "order_id": 2,
+      "rating": 4.5,
+      "title": "Rất hài lòng",
+      "comment": "Jean co giãn tốt, mặc thoải mái",
+      "image_review": [
+        "https://bizweb.dktcdn.net/100/497/316/products/ao-thun-ha-noi-do.jpg?v=1704517033263",
+        "https://yame.vn/cdn/shop/files/ao-thun-no-style-m13-xanh-c-v-t-1174883977.jpg?v=1760776369"
+      ],
+      "is_approved": true,
+      "created_at": "2026-02-03T11:00:00Z"
+    },
+    {
+      "id": 3,
+      "user_id": 14,
+      "productId": 7,
+      "order_id": 4567,
+      "rating": 5.0,
+      "title": "Tuyệt vời",
+      "comment": "Áo đẹp, màu sắc y hình, vải mềm mát, giặt không phai. Shop nhiệt tình.",
+      "image_review": [
+        "https://pos.nvncdn.com/492284-9176/ps/20241110_EFMvcDtllD.jpeg?v=1731227347",
+        "https://bizweb.dktcdn.net/100/497/316/products/ao-thun-ha-noi-do.jpg?v=1704517033263"
+      ],
+      "is_approved": true,
+      "created_at": "2026-02-14T18:42:00Z"
+    },
+    {
+      "id": 4,
+      "user_id": 28,
+      "productId": 3,
+      "order_id": 2891,
+      "rating": 4.5,
+      "title": "Đáng mua",
+      "comment": "Giao hàng nhanh, đóng gói cẩn thận, sản phẩm đúng mô tả. Sẽ mua thêm.",
+      "image_review": [
+        "https://product.hstatic.net/1000378223/product/xanh_sau_4cd37222a3d841999c3b065a60d44590.jpg"
+      ],
+      "is_approved": true,
+      "created_at": "2026-02-13T09:15:00Z"
+    },
+    {
+      "id": 5,
+      "user_id": 7,
+      "productId": 12,
+      "order_id": 7123,
+      "rating": 3.5,
+      "title": "Ổn áp",
+      "comment": "Hơi mỏng hơn dự đoán nhưng vẫn ổn để mặc nhà. Khuyên mọi người mua nhé.",
+      "image_review": [],
+      "is_approved": true,
+      "created_at": "2026-02-12T22:30:00Z"
+    },
+    {
+      "id": 6,
+      "user_id": 41,
+      "productId": 5,
+      "order_id": 1345,
+      "rating": 5.0,
+      "title": "5 sao",
+      "comment": "Rất thích, mặc thoải mái cả ngày không bí. Shop nhiệt tình.",
+      "image_review": [
+        "https://yame.vn/cdn/shop/files/ao-thun-no-style-m13-xanh-c-v-t-1174883977.jpg?v=1760776369",
+        "https://bizweb.dktcdn.net/100/497/316/products/ao-thun-ha-noi-do.jpg?v=1704517033263",
+        "https://pos.nvncdn.com/492284-9176/ps/20241110_EFMvcDtllD.jpeg?v=1731227347"
+      ],
+      "is_approved": true,
+      "created_at": "2026-02-11T14:20:00Z"
+    },
+    {
+      "id": 7,
+      "user_id": 19,
+      "productId": 8,
+      "order_id": 5678,
+      "rating": 4.0,
+      "title": "Form chuẩn",
+      "comment": "Mình mua size M vừa khít, chất liệu cotton thoáng mát.",
+      "image_review": [
+        "https://product.hstatic.net/1000378223/product/xanh_sau_4cd37222a3d841999c3b065a60d44590.jpg",
+        "https://pos.nvncdn.com/492284-9176/ps/20241110_EFMvcDtllD.jpeg?v=1731227347"
+      ],
+      "is_approved": true,
+      "created_at": "2026-02-10T11:05:00Z"
+    },
+    {
+      "id": 8,
+      "user_id": 33,
+      "productId": 1,
+      "order_id": 9012,
+      "rating": 2.5,
+      "title": "Tạm được",
+      "comment": "Form rộng hơn một chút so với size thông thường.",
+      "image_review": [],
+      "is_approved": true,
+      "created_at": "2026-02-09T19:50:00Z"
+    },
+    {
+      "id": 9,
+      "user_id": 22,
+      "productId": 15,
+      "order_id": 3456,
+      "rating": 4.5,
+      "title": "Màu đẹp",
+      "comment": "Màu sắc tươi, họa tiết in sắc nét, rất đáng tiền. Sẽ mua thêm.",
+      "image_review": [
+        "https://bizweb.dktcdn.net/100/497/316/products/ao-thun-ha-noi-do.jpg?v=1704517033263"
+      ],
+      "is_approved": true,
+      "created_at": "2026-02-08T08:10:00Z"
+    },
+    {
+      "id": 10,
+      "user_id": 50,
+      "productId": 9,
+      "order_id": 6789,
+      "rating": 5.0,
+      "title": "Rất ưng",
+      "comment": "Jean co giãn tốt, không bị co rút sau khi giặt. Shop nhiệt tình.",
+      "image_review": [
+        "https://yame.vn/cdn/shop/files/ao-thun-no-style-m13-xanh-c-v-t-1174883977.jpg?v=1760776369",
+        "https://product.hstatic.net/1000378223/product/xanh_sau_4cd37222a3d841999c3b065a60d44590.jpg"
+      ],
+      "is_approved": true,
+      "created_at": "2026-02-07T16:35:00Z"
+    },
+    {
+      "id": 11,
+      "user_id": 21,
+      "productId": 1,
+      "order_id": 8109,
+      "rating": 3.0,
+      "title": "Form chuẩn",
+      "comment": "Giao hàng nhanh, đóng gói cẩn thận, đáng tiền.",
+      "image_review": [
+        "https://images.unsplash.com/photo-1554568218-0f1715e72254?w=400"
+      ],
+      "is_approved": true,
+      "created_at": "2026-02-14T13:24:00Z"
+    },
+    {
+      "id": 12,
+      "user_id": 25,
+      "productId": 1,
+      "order_id": 2937,
+      "rating": 1.5,
+      "title": "In ấn sắc nét",
+      "comment": "Giao hàng siêu tốc, còn tặng kèm quà nhỏ.",
+      "image_review": [
+        "https://yame.vn/cdn/shop/files/ao-thun-no-style-m13-xanh-c-v-t-1174883977.jpg?v=1760776369",
+        "https://product.hstatic.net/1000378223/product/xanh_sau_4cd37222a3d841999c3b065a60d44590.jpg",
+        "https://bizweb.dktcdn.net/100/497/316/products/ao-thun-ha-noi-do.jpg?v=1704517033263"
+      ],
+      "is_approved": true,
+      "created_at": "2026-02-13T14:18:00Z"
+    },
+    {
+      "id": 13,
+      "user_id": 13,
+      "productId": 1,
+      "order_id": 2934,
+      "rating": 3.5,
+      "title": "Form chuẩn",
+      "comment": "Form rộng hơn một chút so với size thông thường.",
+      "image_review": [
+        "https://yame.vn/cdn/shop/files/ao-thun-no-style-m13-xanh-c-v-t-1174883977.jpg?v=1760776369",
+        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400",
+        "https://product.hstatic.net/1000378223/product/xanh_sau_4cd37222a3d841999c3b065a60d44590.jpg"
+      ],
+      "is_approved": true,
+      "created_at": "2026-02-13T10:48:00Z"
+    },
+    {
+      "id": 14,
+      "user_id": 41,
+      "productId": 1,
+      "order_id": 6235,
+      "rating": 1.0,
+      "title": "Ổn áp",
+      "comment": "Vải hơi dày, phù hợp mùa thu đông hơn.",
+      "image_review": [
+        "https://pos.nvncdn.com/492284-9176/ps/20241110_EFMvcDtllD.jpeg?v=1731227347"
+      ],
+      "is_approved": true,
+      "created_at": "2026-02-09T17:30:00Z"
+    },
+    {
+      "id": 15,
+      "user_id": 71,
+      "productId": 1,
+      "order_id": 6617,
+      "rating": 2.5,
+      "title": "Form chuẩn",
+      "comment": "Mình mua size M vừa khít, vải cotton thoáng mát.",
+      "image_review": [
+        "https://yame.vn/cdn/shop/files/ao-thun-no-style-m13-xanh-c-v-t-1174883977.jpg?v=1760776369",
+        "https://pos.nvncdn.com/492284-9176/ps/20241110_EFMvcDtllD.jpeg?v=1731227347",
+        "https://bizweb.dktcdn.net/100/497/316/products/ao-thun-ha-noi-do.jpg?v=1704517033263"
+      ],
+      "is_approved": true,
+      "created_at": "2026-02-09T13:12:00Z"
+    },
+    {
+      "id": 16,
+      "user_id": 12,
+      "productId": 1,
+      "order_id": 1193,
+      "rating": 3.0,
+      "title": "Form chuẩn",
+      "comment": "Jean co giãn tốt, không bị co rút sau giặt.",
+      "image_review": [],
+      "is_approved": true,
+      "created_at": "2026-02-06T02:03:00Z"
+    },
+    {
+      "id": 17,
+      "user_id": 100,
+      "productId": 1,
+      "order_id": 7315,
+      "rating": 2.5,
+      "title": "Ổn áp",
+      "comment": "Form rộng hơn một chút so với size thông thường.",
+      "image_review": [
+        "https://images.unsplash.com/photo-1554568218-0f1715e72254?w=400",
+        "https://product.hstatic.net/1000378223/product/xanh_sau_4cd37222a3d841999c3b065a60d44590.jpg"
+      ],
+      "is_approved": false,
+      "created_at": "2026-02-05T04:15:00Z"
+    },
+    {
+      "id": 18,
+      "user_id": 33,
+      "productId": 1,
+      "order_id": 2652,
+      "rating": 3.5,
+      "title": "Chất vải mát",
+      "comment": "Size chuẩn, không bị lỗi, hài lòng.",
+      "image_review": [
+        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400",
+        "https://images.unsplash.com/photo-1554568218-0f1715e72254?w=400"
+      ],
+      "is_approved": true,
+      "created_at": "2026-02-05T01:41:00Z"
+    },
+    {
+      "id": 19,
+      "user_id": 1,
+      "productId": 1,
+      "order_id": 1,
+      "rating": 4,
+      "title": "Áo đẹp",
+      "comment": "Chất liệu tốt, form chuẩn",
+      "image_review": [
+        "https://pos.nvncdn.com/492284-9176/ps/20241110_EFMvcDtllD.jpeg?v=1731227347",
+        "https://product.hstatic.net/1000378223/product/xanh_sau_4cd37222a3d841999c3b065a60d44590.jpg"
+      ],
+      "is_approved": true,
+      "created_at": "2026-02-03T10:00:00Z"
+    },
+    {
+      "id": 20,
+      "user_id": 29,
+      "productId": 1,
+      "order_id": 2881,
+      "rating": 5.0,
+      "title": "Form chuẩn",
+      "comment": "Rất thích, mặc cả ngày không bí, sẽ mua thêm.",
+      "image_review": [
+        "https://images.unsplash.com/photo-1554568218-0f1715e72254?w=400"
+      ],
+      "is_approved": true,
+      "created_at": "2026-02-02T23:38:00Z"
+    },
+    {
+      "id": 21,
+      "user_id": 32,
+      "productId": 1,
+      "order_id": 2076,
+      "rating": 5.0,
+      "title": "Đáng mua",
+      "comment": "Sản phẩm đẹp hơn hình nhiều, shop hỗ trợ tốt.",
+      "image_review": [
+        "https://images.unsplash.com/photo-1554568218-0f1715e72254?w=400"
+      ],
+      "is_approved": true,
+      "created_at": "2026-02-01T14:20:00Z"
+    },
+    {
+      "id": 22,
+      "user_id": 61,
+      "productId": 1,
+      "order_id": 7556,
+      "rating": 2.0,
+      "title": "Giao nhanh",
+      "comment": "Rất thích, mặc cả ngày không bí, sẽ mua thêm.",
+      "image_review": [
+        "https://bizweb.dktcdn.net/100/497/316/products/ao-thun-ha-noi-do.jpg?v=1704517033263",
+        "https://images.unsplash.com/photo-1554568218-0f1715e72254?w=400",
+        "https://product.hstatic.net/1000378223/product/xanh_sau_4cd37222a3d841999c3b065a60d44590.jpg"
+      ],
+      "is_approved": false,
+      "created_at": "2026-01-31T19:26:00Z"
+    },
+    {
+      "id": 23,
+      "user_id": 45,
+      "productId": 1,
+      "order_id": 2287,
+      "rating": 5.0,
+      "title": "Đáng mua",
+      "comment": "Hơi mỏng hơn dự đoán nhưng vẫn ổn để mặc nhà.",
+      "image_review": [
+        "https://pos.nvncdn.com/492284-9176/ps/20241110_EFMvcDtllD.jpeg?v=1731227347",
+        "https://bizweb.dktcdn.net/100/497/316/products/ao-thun-ha-noi-do.jpg?v=1704517033263",
+        "https://yame.vn/cdn/shop/files/ao-thun-no-style-m13-xanh-c-v-t-1174883977.jpg?v=1760776369"
+      ],
+      "is_approved": false,
+      "created_at": "2026-01-30T13:03:00Z"
+    },
+    {
+      "id": 24,
+      "user_id": 62,
+      "productId": 1,
+      "order_id": 3575,
+      "rating": 3.0,
+      "title": "Chất lượng tốt",
+      "comment": "Form rộng hơn một chút so với size thông thường.",
+      "image_review": [
+        "https://product.hstatic.net/1000378223/product/xanh_sau_4cd37222a3d841999c3b065a60d44590.jpg"
+      ],
+      "is_approved": false,
+      "created_at": "2026-01-29T00:33:00Z"
+    },
+    {
+      "id": 25,
+      "user_id": 17,
+      "productId": 1,
+      "order_id": 4205,
+      "rating": 1.0,
+      "title": "Tạm được",
+      "comment": "Jean co giãn tốt, không bị co rút sau giặt.",
+      "image_review": [
+        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400"
+      ],
+      "is_approved": true,
+      "created_at": "2026-01-28T09:19:00Z"
+    },
+    {
+      "id": 26,
+      "user_id": 21,
+      "productId": 1,
+      "order_id": 1541,
+      "rating": 5.0,
+      "title": "Shop nhiệt tình",
+      "comment": "Hơi mỏng hơn dự đoán nhưng vẫn ổn để mặc nhà.",
+      "image_review": [
+        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400",
+        "https://images.unsplash.com/photo-1554568218-0f1715e72254?w=400"
+      ],
+      "is_approved": true,
+      "created_at": "2026-01-26T15:01:00Z"
+    },
+    {
+      "id": 27,
+      "user_id": 54,
+      "productId": 1,
+      "order_id": 1871,
+      "rating": 1.0,
+      "title": "Rất hài lòng",
+      "comment": "Mình mua size M vừa khít, vải cotton thoáng mát.",
+      "image_review": [
+        "https://pos.nvncdn.com/492284-9176/ps/20241110_EFMvcDtllD.jpeg?v=1731227347",
+        "https://images.unsplash.com/photo-1554568218-0f1715e72254?w=400"
+      ],
+      "is_approved": true,
+      "created_at": "2026-01-25T16:47:00Z"
+    },
+    {
+      "id": 28,
+      "user_id": 33,
+      "productId": 1,
+      "order_id": 2607,
+      "rating": 1.0,
+      "title": "Form chuẩn",
+      "comment": "Sản phẩm đẹp hơn hình nhiều, shop hỗ trợ tốt.",
+      "image_review": [
+        "https://yame.vn/cdn/shop/files/ao-thun-no-style-m13-xanh-c-v-t-1174883977.jpg?v=1760776369",
+        "https://product.hstatic.net/1000378223/product/xanh_sau_4cd37222a3d841999c3b065a60d44590.jpg",
+        "https://bizweb.dktcdn.net/100/497/316/products/ao-thun-ha-noi-do.jpg?v=1704517033263"
+      ],
+      "is_approved": true,
+      "created_at": "2026-01-25T06:45:00Z"
+    },
+    {
+      "id": 29,
+      "user_id": 61,
+      "productId": 1,
+      "order_id": 1284,
+      "rating": 3.0,
+      "title": "Shop nhiệt tình",
+      "comment": "Màu sắc tươi, họa tiết in sắc nét, rất ưng.",
+      "image_review": [
+        "https://yame.vn/cdn/shop/files/ao-thun-no-style-m13-xanh-c-v-t-1174883977.jpg?v=1760776369",
+        "https://pos.nvncdn.com/492284-9176/ps/20241110_EFMvcDtllD.jpeg?v=1731227347"
+      ],
+      "is_approved": true,
+      "created_at": "2026-01-24T23:46:00Z"
+    },
+    {
+      "id": 30,
+      "user_id": 33,
+      "productId": 1,
+      "order_id": 2585,
+      "rating": 2.5,
+      "title": "Hơi mỏng",
+      "comment": "Mình mua size M vừa khít, vải cotton thoáng mát.",
+      "image_review": [
+        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400"
+      ],
+      "is_approved": true,
+      "created_at": "2026-01-24T18:52:00Z"
+    },
+    {
+      "id": 31,
+      "user_id": 28,
+      "productId": 1,
+      "order_id": 5259,
+      "rating": 4.0,
+      "title": "Rất hài lòng",
+      "comment": "Áo đẹp, màu sắc y hình, giặt không phai.",
+      "image_review": [
+        "https://pos.nvncdn.com/492284-9176/ps/20241110_EFMvcDtllD.jpeg?v=1731227347"
+      ],
+      "is_approved": true,
+      "created_at": "2026-01-23T05:38:00Z"
+    },
+    {
+      "id": 32,
+      "user_id": 57,
+      "productId": 1,
+      "order_id": 7685,
+      "rating": 1.0,
+      "title": "Tạm được",
+      "comment": "Chất liệu tốt, form chuẩn, mặc rất thoải mái.",
+      "image_review": [
+        "https://product.hstatic.net/1000378223/product/xanh_sau_4cd37222a3d841999c3b065a60d44590.jpg",
+        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400"
+      ],
+      "is_approved": true,
+      "created_at": "2026-01-22T23:35:00Z"
+    },
+    {
+      "id": 33,
+      "user_id": 16,
+      "productId": 1,
+      "order_id": 5859,
+      "rating": 3.5,
+      "title": "5 sao",
+      "comment": "Áo mềm mại, mặc mùa hè rất mát.",
+      "image_review": [
+        "https://product.hstatic.net/1000378223/product/xanh_sau_4cd37222a3d841999c3b065a60d44590.jpg",
+        "https://bizweb.dktcdn.net/100/497/316/products/ao-thun-ha-noi-do.jpg?v=1704517033263",
+        "https://yame.vn/cdn/shop/files/ao-thun-no-style-m13-xanh-c-v-t-1174883977.jpg?v=1760776369"
+      ],
+      "is_approved": true,
+      "created_at": "2026-01-22T07:17:00Z"
+    },
+    {
+      "id": 34,
+      "user_id": 2,
+      "productId": 1,
+      "order_id": 8568,
+      "rating": 3.5,
+      "title": "Ổn áp",
+      "comment": "Vải hơi dày, phù hợp mùa thu đông hơn.",
+      "image_review": [
+        "https://bizweb.dktcdn.net/100/497/316/products/ao-thun-ha-noi-do.jpg?v=1704517033263",
+        "https://yame.vn/cdn/shop/files/ao-thun-no-style-m13-xanh-c-v-t-1174883977.jpg?v=1760776369"
+      ],
+      "is_approved": false,
+      "created_at": "2026-01-21T21:35:00Z"
+    },
+    {
+      "id": 35,
+      "user_id": 94,
+      "productId": 1,
+      "order_id": 4857,
+      "rating": 2.0,
+      "title": "Size hơi nhỏ",
+      "comment": "Mình mua size M vừa khít, vải cotton thoáng mát.",
+      "image_review": [
+        "https://images.unsplash.com/photo-1554568218-0f1715e72254?w=400",
+        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400",
+        "https://yame.vn/cdn/shop/files/ao-thun-no-style-m13-xanh-c-v-t-1174883977.jpg?v=1760776369"
+      ],
+      "is_approved": true,
+      "created_at": "2026-01-20T20:28:00Z"
+    },
+    {
+      "id": 36,
+      "user_id": 39,
+      "productId": 1,
+      "order_id": 2797,
+      "rating": 2.0,
+      "title": "Size hơi nhỏ",
+      "comment": "Chất lượng ổn trong tầm giá, khuyến mãi hay.",
+      "image_review": [
+        "https://images.unsplash.com/photo-1554568218-0f1715e72254?w=400",
+        "https://yame.vn/cdn/shop/files/ao-thun-no-style-m13-xanh-c-v-t-1174883977.jpg?v=1760776369"
+      ],
+      "is_approved": true,
+      "created_at": "2026-01-20T19:35:00Z"
+    },
+    {
+      "id": 37,
+      "user_id": 80,
+      "productId": 1,
+      "order_id": 8069,
+      "rating": 1.5,
+      "title": "Co giãn tốt",
+      "comment": "Giao hàng siêu tốc, còn tặng kèm quà nhỏ.",
+      "image_review": [
+        "https://yame.vn/cdn/shop/files/ao-thun-no-style-m13-xanh-c-v-t-1174883977.jpg?v=1760776369"
+      ],
+      "is_approved": false,
+      "created_at": "2026-01-20T11:10:00Z"
+    },
+    {
+      "id": 38,
+      "user_id": 34,
+      "productId": 1,
+      "order_id": 3312,
+      "rating": 3.5,
+      "title": "Form chuẩn",
+      "comment": "Mình mua size M vừa khít, vải cotton thoáng mát.",
+      "image_review": [
+        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400",
+        "https://pos.nvncdn.com/492284-9176/ps/20241110_EFMvcDtllD.jpeg?v=1731227347",
+        "https://yame.vn/cdn/shop/files/ao-thun-no-style-m13-xanh-c-v-t-1174883977.jpg?v=1760776369"
+      ],
+      "is_approved": false,
+      "created_at": "2026-01-19T14:52:00Z"
+    },
+    {
+      "id": 39,
+      "user_id": 63,
+      "productId": 1,
+      "order_id": 2117,
+      "rating": 2.0,
+      "title": "Rất hài lòng",
+      "comment": "Size chuẩn, không bị lỗi, hài lòng.",
+      "image_review": [
+        "https://yame.vn/cdn/shop/files/ao-thun-no-style-m13-xanh-c-v-t-1174883977.jpg?v=1760776369",
+        "https://product.hstatic.net/1000378223/product/xanh_sau_4cd37222a3d841999c3b065a60d44590.jpg",
+        "https://pos.nvncdn.com/492284-9176/ps/20241110_EFMvcDtllD.jpeg?v=1731227347"
+      ],
+      "is_approved": false,
+      "created_at": "2026-01-19T11:25:00Z"
+    },
+    {
+      "id": 40,
+      "user_id": 56,
+      "productId": 1,
+      "order_id": 9973,
+      "rating": 1.0,
+      "title": "Form chuẩn",
+      "comment": "Form rộng hơn một chút so với size thông thường.",
+      "image_review": [
+        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400",
+        "https://images.unsplash.com/photo-1554568218-0f1715e72254?w=400"
+      ],
+      "is_approved": true,
+      "created_at": "2026-01-18T18:28:00Z"
+    },
+    {
+      "id": 41,
+      "user_id": 61,
+      "productId": 1,
+      "order_id": 2208,
+      "rating": 3.0,
+      "title": "Ổn áp",
+      "comment": "Form rộng hơn một chút so với size thông thường.",
+      "image_review": [
+        "https://bizweb.dktcdn.net/100/497/316/products/ao-thun-ha-noi-do.jpg?v=1704517033263"
+      ],
+      "is_approved": true,
+      "created_at": "2026-01-16T18:39:00Z"
+    }
+  ]
+}
